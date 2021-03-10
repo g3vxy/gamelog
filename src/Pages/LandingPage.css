@@ -1,0 +1,39 @@
+.hero {
+    height: 200vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hero-down {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.hero-down h1{
+    font-family: 'Inter', sans-serif;
+    color: var(--main-text-color);
+    font-size: 5em;
+    font-weight: 900;
+    margin: 0px;
+    text-align: center;
+}
+
+.hero-down h2{
+    font-family: 'Inter', sans-serif;
+    color: var(--muted-text-color-hover);
+    font-weight: 600;
+    margin: 0px;
+    text-align: center;
+}
+
+.hero-down h3{
+    font-family: 'Inter', sans-serif;
+    color: var(--muted-text-color-hover);
+    font-weight: 600;
+    margin: 8px;
+    text-align: center;
+}

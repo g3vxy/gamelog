@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*
+--main-bg-color: background color of website
+--secondary-bg-color: header background color
+--main-text-color: 
+*/
+
+:root {
+    --main-bg-color: #242423;
+    --secondary-bg-color: #333533;
+    --main-text-color: #DCDDDE;
+    --main-text-color-hover: #DCDDDEBB;
+    --accent-text-color: #F5F107;
+    --accent-text-color-hover: #F5F107BB;
+    --muted-text-color: #CFDBD5;
+    --muted-text-color-hover: #CFDBD5BB;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* overflow hidden thingy */
+html {
+    scrollbar-width: none;
+    box-sizing: border-box;
+}
+
+/* overflow hidden thingy */
+::-webkit-scrollbar {
+    display: none;
+}
+  
+::selection {
+    color: var(--secondary-bg-color);
+    background: var(--accent-text-color);
+}
+
+::-moz-selection {
+    color: var(--secondary-bg-color);
+    background: var(--accent-text-color);
+}
+
+/* clear text decoration from links */
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
